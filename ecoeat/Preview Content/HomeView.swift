@@ -23,7 +23,7 @@ struct HomeView: View {
                     
                     VStack{
                         
-                        Text("\n\nWelcome to SoulChef!")
+                        Text("\n\nWelcome to EcoEats!")
                             .foregroundColor(.black)
                             .padding()
                             .background(Color.white.blur(radius: 50))
