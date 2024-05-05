@@ -7,18 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A8FC1752BE78635006B3ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8FC1742BE78635006B3ADE /* Main.storyboard */; };
+		2A8FC1772BE78640006B3ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8FC1762BE78640006B3ADE /* LaunchScreen.storyboard */; };
 		2AF485B82BE73C5A005F01D1 /* ecoeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485B72BE73C5A005F01D1 /* ecoeatApp.swift */; };
 		2AF485BA2BE73C5A005F01D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485B92BE73C5A005F01D1 /* ContentView.swift */; };
 		2AF485BC2BE73C5D005F01D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF485BB2BE73C5D005F01D1 /* Assets.xcassets */; };
 		2AF485BF2BE73C5D005F01D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF485BE2BE73C5D005F01D1 /* Preview Assets.xcassets */; };
+		2AF485C62BE73CDE005F01D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485C52BE73CDE005F01D1 /* HomeView.swift */; };
+		2AF485C82BE73D26005F01D1 /* TinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485C72BE73D26005F01D1 /* TinderView.swift */; };
+		2AF485CA2BE73D3A005F01D1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485C92BE73D3A005F01D1 /* MenuView.swift */; };
+		2AF485CC2BE73D5C005F01D1 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485CB2BE73D5C005F01D1 /* RecipesView.swift */; };
+		2AF485CF2BE74328005F01D1 /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485CE2BE74328005F01D1 /* ObjectDetector.mlmodel */; };
+		2AF485D12BE74346005F01D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485D02BE74346005F01D1 /* AppDelegate.swift */; };
+		2AF485D32BE74378005F01D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485D22BE74378005F01D1 /* SceneDelegate.swift */; };
+		2AF485D52BE74383005F01D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485D42BE74383005F01D1 /* ViewController.swift */; };
+		2AF485D72BE74393005F01D1 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485D62BE74392005F01D1 /* ResultsViewController.swift */; };
+		2AF485D92BE7439C005F01D1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485D82BE7439C005F01D1 /* ListViewController.swift */; };
+		2AF485DB2BE743A4005F01D1 /* RecipeStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF485DA2BE743A4005F01D1 /* RecipeStepsViewController.swift */; };
+		2AF486202BE773A0005F01D1 /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4861F2BE773A0005F01D1 /* ViewControllerRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A8FC1742BE78635006B3ADE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2A8FC1762BE78640006B3ADE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF485B42BE73C5A005F01D1 /* ecoeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecoeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF485B72BE73C5A005F01D1 /* ecoeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoeatApp.swift; sourceTree = "<group>"; };
 		2AF485B92BE73C5A005F01D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AF485BB2BE73C5D005F01D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF485BE2BE73C5D005F01D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AF485C52BE73CDE005F01D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2AF485C72BE73D26005F01D1 /* TinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderView.swift; sourceTree = "<group>"; };
+		2AF485C92BE73D3A005F01D1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2AF485CB2BE73D5C005F01D1 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		2AF485CE2BE74328005F01D1 /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
+		2AF485D02BE74346005F01D1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AF485D22BE74378005F01D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AF485D42BE74383005F01D1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AF485D62BE74392005F01D1 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2AF485D82BE7439C005F01D1 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2AF485DA2BE743A4005F01D1 /* RecipeStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStepsViewController.swift; sourceTree = "<group>"; };
+		2AF4861F2BE773A0005F01D1 /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		2AF486292BE77B60005F01D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +64,8 @@
 		2AF485AB2BE73C5A005F01D1 = {
 			isa = PBXGroup;
 			children = (
+				2AF486292BE77B60005F01D1 /* Info.plist */,
+				2AF485CD2BE742C3005F01D1 /* TakingPictures */,
 				2AF485B62BE73C5A005F01D1 /* ecoeat */,
 				2AF485B52BE73C5A005F01D1 /* Products */,
 			);
@@ -63,8 +94,29 @@
 			isa = PBXGroup;
 			children = (
 				2AF485BE2BE73C5D005F01D1 /* Preview Assets.xcassets */,
+				2AF485C52BE73CDE005F01D1 /* HomeView.swift */,
+				2AF485C72BE73D26005F01D1 /* TinderView.swift */,
+				2AF485C92BE73D3A005F01D1 /* MenuView.swift */,
+				2AF485CB2BE73D5C005F01D1 /* RecipesView.swift */,
+				2AF4861F2BE773A0005F01D1 /* ViewControllerRepresentable.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AF485CD2BE742C3005F01D1 /* TakingPictures */ = {
+			isa = PBXGroup;
+			children = (
+				2A8FC1762BE78640006B3ADE /* LaunchScreen.storyboard */,
+				2A8FC1742BE78635006B3ADE /* Main.storyboard */,
+				2AF485CE2BE74328005F01D1 /* ObjectDetector.mlmodel */,
+				2AF485D02BE74346005F01D1 /* AppDelegate.swift */,
+				2AF485D22BE74378005F01D1 /* SceneDelegate.swift */,
+				2AF485D42BE74383005F01D1 /* ViewController.swift */,
+				2AF485D62BE74392005F01D1 /* ResultsViewController.swift */,
+				2AF485D82BE7439C005F01D1 /* ListViewController.swift */,
+				2AF485DA2BE743A4005F01D1 /* RecipeStepsViewController.swift */,
+			);
+			path = TakingPictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +177,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8FC1752BE78635006B3ADE /* Main.storyboard in Resources */,
+				2A8FC1772BE78640006B3ADE /* LaunchScreen.storyboard in Resources */,
 				2AF485BF2BE73C5D005F01D1 /* Preview Assets.xcassets in Resources */,
 				2AF485BC2BE73C5D005F01D1 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +191,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF485D72BE74393005F01D1 /* ResultsViewController.swift in Sources */,
+				2AF485D52BE74383005F01D1 /* ViewController.swift in Sources */,
+				2AF485D92BE7439C005F01D1 /* ListViewController.swift in Sources */,
+				2AF485D12BE74346005F01D1 /* AppDelegate.swift in Sources */,
+				2AF485CF2BE74328005F01D1 /* ObjectDetector.mlmodel in Sources */,
+				2AF486202BE773A0005F01D1 /* ViewControllerRepresentable.swift in Sources */,
+				2AF485D32BE74378005F01D1 /* SceneDelegate.swift in Sources */,
+				2AF485CA2BE73D3A005F01D1 /* MenuView.swift in Sources */,
+				2AF485C82BE73D26005F01D1 /* TinderView.swift in Sources */,
+				2AF485C62BE73CDE005F01D1 /* HomeView.swift in Sources */,
+				2AF485DB2BE743A4005F01D1 /* RecipeStepsViewController.swift in Sources */,
 				2AF485BA2BE73C5A005F01D1 /* ContentView.swift in Sources */,
+				2AF485CC2BE73D5C005F01D1 /* RecipesView.swift in Sources */,
 				2AF485B82BE73C5A005F01D1 /* ecoeatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +338,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ecoeat/Preview Content\"";
+				DEVELOPMENT_TEAM = 58AL3RK7G7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan produce";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +368,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ecoeat/Preview Content\"";
+				DEVELOPMENT_TEAM = 58AL3RK7G7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan produce";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
